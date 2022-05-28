@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="navstyle.css">
+    <link rel="stylesheet" href="dummystyle.css">
+<style>
+#preloder{
+    background: black url("images/BackIllinformedAsianelephant-size_restricted.gif") no-repeat center center;
+    background-size: 520px;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+.hell{
+    display: none;
+}
+.testimonials-clean {
+    color:#fff;
+    background-color:#495057;
+  }
+  
+  .testimonials-clean p {
+    color:#fff;
+  }
+  
+  .testimonials-clean h2 {
+    font-weight:bold;
+    margin-bottom:40px;
+    padding-top:40px;
+    color:inherit;
+  }
+  
+  @media (max-width:767px) {
+    .testimonials-clean h2 {
+      margin-bottom:25px;
+      padding-top:25px;
+      font-size:24px;
+    }
+  }
+  
+  .testimonials-clean .intro {
+    font-size:16px;
+    max-width:500px;
+    margin:0 auto;
+  }
+  
+  .testimonials-clean .intro p {
+    margin-bottom:0;
+  }
+  
+  .testimonials-clean .people {
+    padding:50px 0 20px;
+  }
+  
+  .testimonials-clean .item {
+    margin-bottom:32px;
+  }
+  
+  @media (min-width:768px) {
+    .testimonials-clean .item {
+      height:220px;
+    }
+  }
+  
+  .testimonials-clean .item .box {
+    padding:30px;
+    background-color: burlywood;
+    position:relative;
+  }
+  
+  .testimonials-clean .item .box:after {
+    content:'';
+    position:absolute;
+    left:30px;
+    bottom:-24px;
+    width:0;
+    height:0;
+    border:15px solid transparent;
+    border-width:12px 15px;
+    border-top-color:#fff;
+  }
+  
+  .testimonials-clean .item .author {
+    margin-top:28px;
+    padding-left:25px;
+  }
+  
+  .testimonials-clean .item .name {
+    font-weight:bold;
+    margin-bottom:2px;
+    color:inherit;
+  }
+  
+  .testimonials-clean .item .title {
+    font-size:13px;
+    color:#9da9ae;
+  }
+  
+  .testimonials-clean .item .description {
+    font-size:15px;
+    margin-bottom:0;
+  }
+  
+  .testimonials-clean .item img {
+    max-width:40px;
+    float:left;
+    margin-right:12px;
+    margin-top:-5px;
+  }
+     input[type=text],
+    select, input[type=email],
+    textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+
+    input[type=submit] {
+        background-color: #04AA6D;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+
+    .container-con {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 10px;
+        margin-top: 30px;
+    }
+
+
+    .column {
+        
+        width: 50%;
+        margin-top: 6px;
+        padding: 20px;
+    }
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+    justify-content: space-evenly;
+}
+
+
+    @media screen and (max-width: 600px) {
+
+        .column,
+        input[type=submit] {
+            width: 100%;
+            margin-top: 0;
+        }
+    }
+</style>
+
+
+
+ 
+
+</head>
+
+<body>
+     <div id="preloder">
+
+ </div>
+    
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img class="logo" src="images/logoing-removebg-preview.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="https://roomsterinc.000webhostapp.com/index.php">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hostel-search.php">BOOKING</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://roomsterinc.000webhostapp.com/About.php">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://roomsterinc.000webhostapp.com/index.php">CONTACT US</a>
+                    </li>
+                    <li class="nav-item">
+
+                    
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="heading-content">
+
+        <div class="heading">
+            <h1>JAIPUR JANTAR HOSTEL</h1>
+        </div>
+        <div class="images">
+            <div class="img1">
+                <img src="images/jjh1.jpg" width="250px" height="250px" alt="">
+            </div>
+
+            <div class="img2">
+                <img src="images/jjh2.jpg" width="250px" height="250px" alt="">
+            </div>
+
+            <div class="img3">
+                <img src="images/jjh3.jpg" width="250px" height="250px" alt="">
+            </div>
+
+        </div>
+        <div class="disp">
+            <div class="features">
+                <h2>Description</h2>
+                <ul style="display: block;">
+                    <li>Featuring a terrace, shared lounge and free WiFi, Jaipur Jantar Hostel is set in Jaipur, 601 m from Sindhi Camp. This property is located a short distance from attractions such as City Palace. Jantar Mantar, Jaipur is 1.2 mi away.
+                    </li>
+                    <li>The units at the hostel come with a seating area. The rooms at Jaipur Jantar Hostel feature air conditioning and a wardrobe.</li>
+                    <li>A continental breakfast is served daily at the property.</li>
+                    <li>Staff speak English and Hindi at the reception. The area is popular for cycle and segway tours, leopard safaris and walking tours.
+
+                    </li>
+                    <li>Hawa Mahal - Palace of Winds is 1.4 mi from the accommodations. Jaipur International Airport is 6.8 mi away. </li>
+                    <li>Couples in particular like the location – they rated it 9.0 for a two-person trip.</li>
+                   
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="map">
+                <h2>LOCATION</h2>
+                <<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3557.491378932455!2d75.8029527144162!3d26.919632566274043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db40075a41697%3A0x1853b99404d80c92!2sJaipur%20Jantar%20Hostel!5e0!3m2!1sen!2sin!4v1649953033178!5m2!1sen!2sin"
+                    width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe> 
+
+            </div>
+            <div class="booking">
+                <h2>Payment details</h2>
+                <ul>
+                    <li>AC rooms - 2,50,000 per annum </li>
+                    <li>Non ac rooms - 2,00,000 per annum</li>
+                    <li>Mess - 80,000 per annum</li>
+                   
+                </ul>
+
+            </div>
+        </div>
+        
+        <p>**------------------------Advance payment for booking is 10,000-----------------------------**</p>
+    </section>
+    <div class="btn">
+        <a href="https://roomsterinc.000webhostapp.com/regs.php" class="book-link">BOOKING</a>
+
+    </div>
+       <br>       
+       <section class="testimonial">
+<div class="testimonials-clean">
+    <div class="container">
+        <div class="intro">
+            <h2 class="text-center">Testimonials </h2>
+            <p class="text-center"></p>
+        </div>
+        <div class="row people">
+            <div class="col-md-6 col-lg-4 item">
+                <div class="box">
+                    <p class="description">These are the testimonials from heads of different well known and big companies.Write your experience to you too. So you may get the chance to feature on your testimonial page</p>
+                </div>
+                <div class="author"><img class="rounded-circle" src="https://i.imgur.com/nUNhspp.jpg">
+                    <h5 class="name">Vishant mathur</h5>
+                    <p class="title">students</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 item">
+                <div class="box">
+                    <p class="description">I appreciate they added the features for owners too. So they don't loose control over things.UI is just fabulas.</p>
+                </div>
+                <div class="author"><img class="rounded-circle" src="https://i.imgur.com/o5uMfKo.jpg">
+                    <h5 class="name">Nidhi choudhary</h5>
+                    <p class="title">Software engineer</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 item">
+                <div class="box">
+                    <p class="description">I really like the concept of advance booking of hostels and pg. I faced this issue in my teenage and now finally someone solved this issue and make it very easy and interactive.</p>
+                </div>
+                <div class="author"><img class="rounded-circle" src="https://i.imgur.com/At1IG6H.png">
+                    <h5 class="name">Vijay gurjark</h5>
+                    <p class="title">college student</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+
+<div id="contactus" class="container-con">
+<div style="text-align:center">
+    <h2>Feedback</h2>
+    <p>leave us a Feedback:</p>
+</div>
+<div class="row">
+    <div class="column">
+        <form action="/action_page.php">
+            <label for="fname">Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <label for="lname">Profession</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your profession....">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your email..">
+
+            <label for="subject">Review</label>
+            <textarea id="subject" name="subject" placeholder="Write something.."
+                style="height:170px"></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</div>
+</div>
+    <iframe class="hell" width="560" height="315" src="https://www.youtube.com/embed/dWEuF1tjdU4"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <iframe  class="hell"  width="560" height="315" src="https://www.youtube.com/embed/dWEuF1tjdU4"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <iframe  class="hell"  width="560" height="315" src="https://www.youtube.com/embed/dWEuF1tjdU4"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <iframe  class="hell"  width="560" height="315" src="https://www.youtube.com/embed/dWEuF1tjdU4"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <iframe  class="hell"  width="560" height="315" src="https://www.youtube.com/embed/dWEuF1tjdU4"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+    
+    
+      <script>
+                var loder = document.getElementById('preloder');
+                window.addEventListener("load", function () {
+                    loder.style.display = "none";
+                })
+            </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

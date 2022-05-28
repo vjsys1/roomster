@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pay.css">
+    <title>Payment</title>
+</head>
+<style>
+#preloder{
+    background: black url("images/BackIllinformedAsianelephant-size_restricted.gif") no-repeat center center;
+    background-size: 520px;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+iframe{
+    display: none;
+}
+</style>
+
+
+
+<body>
+    
+ <div id="preloder">
+
+ </div>
+<div class="container">
+    <form action="https://roomsterinc.000webhostapp.com">
+        <div class="row">
+            <div class="col">
+                <h3 class="title">payment</h3>
+                <div class="inputBox">
+                    <span>Cards Accepted :</span>
+                    <img src="images/visa.png" width="75px" alt="">
+                    <img src="images/mastercard.png" width="75px" alt="">
+                    <img src="images/maestro.png" width="75px" alt="">
+                    <img src="images/americanexpress.jpg" width="75px" alt="">
+                </div>
+                <div class="inputBox">
+                    <span>name on card :</span>
+                    <input type="text" placeholder="VISHANT MATHUR" required>
+                </div>
+                <div class="inputBox">
+                    <span>credit card number :</span>
+                    <input type="password" name="cc" id="cc" placeholder="1111-2222-3333-4444" minlength="16" maxlength="16" size ="18" required>
+                    
+                </div>
+               
+
+                <div class="flex">
+                    <div class="inputBox">
+                        <span>exp month :</span>
+                        <select name="month" id="month" required>
+                            <option>--Please choose an option--</option>
+                            <option value="jan">January</option>
+                            <option value="Feb">February</option>
+                            <option value="March">March</option>
+                            <option value="April">April</option>
+                            <option value="May">May</option>
+                            <option value="June">June</option>
+                            <option value="July">July</option>
+                            <option value="August">August</option>
+                            <option value="September">September</option>
+                            <option value="Oct">October</option>
+                            <option value="Nov">November</option>
+                            <option value="Dec">December</option>
+                          </select>
+                    </div>
+                        <div class="inputBox">
+                            <span>Exp Year :</span>
+                                <select name="expyear" id="expyear" required>
+                                    <option>--Please choose an option--</option>
+                                    <option>2022</option>
+                                    <option>2023</option>
+                                    <option>2024</option>
+                                    <option>2025</option>
+                                    <option>2026</option>
+                                    <option>2027</option>
+                                    <option>2028</option>
+                                    <option>2029</option>
+                                    <option>2030</option>
+                                </select>
+                            </div>
+                    <div class="inputBox">
+                        <span>CVV :</span>
+                        <input type="password" placeholder="123" minlength="3" maxlength="3" size ="4" required> 
+                    </div>
+                </div>
+
+            </div>
+    
+        </div>
+
+        <button  type="submit" value="proceed to checkout" class="submit-btn">Proceed to check out</button>
+
+    </form>
+
+</div>    
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/dWEuF1tjdU4"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/dWEuF1tjdU4"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/dWEuF1tjdU4"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/dWEuF1tjdU4"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/dWEuF1tjdU4"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+  <script>
+                var loder = document.getElementById('preloder');
+                window.addEventListener("load", function () {
+                    loder.style.display = "none";
+                })
+            </script>
+    
+</body>
+</html>

@@ -1,0 +1,39 @@
+@media (min-width: 992px){
+
+    .navbar-expand-lg .navbar-collapse {
+        display: flex!important;
+        flex-basis: auto;
+        justify-content: end;
+
+    }
+    
+.btn-outline-success {
+    color: #212529 !important;
+    border-color: #da2020 !important;
+}
+}
+nav .logo{
+    width: 120px;
+    height: 20px;
+    height: 1rem;
+    margin-left: 3%;
+    
+}
+.nav-item a{
+    font-size: 17px;
+    
+}
+.navbar-nav {
+    display: flex;
+    padding-left: 50px;
+    margin-bottom: 0;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.btn-outline-success {
+    color: orange;
+    border-color: orange;
+}
+
+
+

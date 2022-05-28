@@ -1,0 +1,8 @@
+.container-main{
+    background: rgb(2,0,36);
+    background: linear-gradient(#e66465, #9198e5);
+    color: white;
+    font-size: 20px;
+    min-height:100vh;
+    
+}
